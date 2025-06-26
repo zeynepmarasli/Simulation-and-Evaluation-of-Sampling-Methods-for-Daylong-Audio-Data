@@ -1,5 +1,6 @@
-# CLEAN_TRANSCRIPT.PY 
-# cleans transcript in prep for daylong sampling (daylongtranscript.py and randomsampler.py)
+# READMe:
+# File: CLEAN_TRANSCRIPT.PY 
+# Objective: cleans transcript in prep for daylong sampling (daylongtranscript.py and randomsampler.py)
     # removes comments
     # removes non-alphabetic characters; extra linguistic annotations 
     # removes vcm, lex, mwu tiers for CHI 
