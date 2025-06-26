@@ -98,21 +98,21 @@ def clean_BN32(input_file, output_file):
         else: file_output.write(line + "\n")
     return   
 
-
-# for cleaning A787 files 
-""" A787_1107 = "A787_1107.txt"
-A787_1107_output = "A787_1107_clean.txt"
-#clean_A787(A787_1107, A787_1107_output)
-
-A787_1009 = "A787_1009.txt"
-A787_1009_output = "A787_1009_clean2.txt"
-clean_A787(A787_1009, A787_1009_output)
- """
-
-""" BN32 = "BN32_010007.txt"
-BN32_output = "BN32_clean.txt"
-clean_BN32(BN32, BN32_output) """
-
-B895_01002 = "B895_010004_KMK_edits.cha"
-B895_01002_output = "B895_010004_KMK_clean.txt"
-clean_fausey(B895_01002, B895_01002_output)
+def main():
+    # for cleaning A787 files 
+    A787_1107 = "A787_1107.txt"
+    A787_1107_output = "A787_1107_clean.txt"
+    clean_A787(A787_1107, A787_1107_output)
+    """ 
+    A787_1009 = "A787_1009.txt"
+    A787_1009_output = "A787_1009_clean2.txt"
+    clean_A787(A787_1009, A787_1009_output)
+     """
+    
+    """ 
+    BN32 = "BN32_010007.txt"
+    BN32_output = "BN32_clean.txt"
+    clean_BN32(BN32, BN32_output)
+    """
+#main()
+ 
