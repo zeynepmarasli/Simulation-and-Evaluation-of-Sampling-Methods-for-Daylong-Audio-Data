@@ -5,9 +5,7 @@ from random import randrange
 import statistics
 import matplotlib.pyplot as plt
 import plotly.express as px
-os.chdir(os.path.expanduser("/Users/zeynepmarasli/Downloads/Documents/Projects/Daylong_Analyses/Python_Code/"))
-sys.path.append("/Users/zeynepmarasli/Downloads/Documents/Projects/Daylong_Analyses/Python_Code/")
-from module_lib.daylongtranscript import*
+from daylongtranscript import*
 
 class Sampler():
     def __init__(self, transcript, sampling_interval = .5, total_sampled_time = None, prop_tts = None, simulations = 100, sampling_method = 4, feature_type = "word count", feature = None):
@@ -395,4 +393,3 @@ def main():
 
 
 #main()
-print("random sampler loaded")
