@@ -1,5 +1,5 @@
-# Optimizing-Random-Sampling-of-Daylong-Audio
-Code and analyses used for "Optimizing Random Sampling with Daylong Audio"
+# Simulation and Evaluation of Sampling Methods for Daylong Audio Data
+Code and analyses used for "Simulation and Evaluation of Sampling Methods for Daylong Audio Data"
 
 1. clean_transcript.py
    - this python file takes in a raw CHAT file of a daylong transcript (transcripts used in this project can be found on HomeBank)
