@@ -378,18 +378,15 @@ class Sampler():
 
 
 def main():
-    transcript_fpath = "/Users/zeynepmarasli/Downloads/Documents/Projects/Daylong_Analyses/Python_Code/Transcripts/Clean/All_Tiers/" #Clean/All_Tiers/" #For_OSF/"
+    transcript_fpath = "<insert file path of cleaned transcript here>" 
     A787_files = ["A787_001107_cleaned.txt", "A787_001109_cleaned.txt", "A787_001111_cleaned.txt"]
-    transcript = DaylongTranscript(fpath = transcript_fpath+A787_files[0], fname = A787_files[0], isVanDam=False)
+    transcript = DaylongTranscript(fpath = transcript_fpath+A787_files[0], fname = A787_files[0])
     transcript.describe()
     print("\n")
     sampler = Sampler(transcript, sampling_interval=0.5, total_sampled_time=10, simulations = 1, feature_type = "word count")
     sampler.describe()
-    sampler.sample(export = False, see_final_stats=True, sample_non_overlapping=True)
+    sampler.sample(export = True, see_final_stats=True)
     print()
-    #sampler = Sampler(transcript, sampling_interval=0.5, total_sampled_time=1, simulations = 1, feature_type = "word count")
-    #sampler.describe()
-    #sampler.sample(export = False, see_final_stats=True)
 
 
 #main()
