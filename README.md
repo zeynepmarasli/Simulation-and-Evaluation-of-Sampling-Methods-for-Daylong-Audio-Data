@@ -6,7 +6,7 @@ Code and analyses used for "Simulation and Evaluation of Sampling Methods for Da
    - creates a tab-delimited txt file with the columns: [speaker]  [cleaned_utterance]  [raw_utterance]  [start_time]  [stop_time]  [xds]  [any other tiers]
    - this tab-delimited txt file is what is used for this project
   
-2. daylongtranscript.py randomsampler.py
+2. daylongtranscript.py 
    - contain DaylongTranscript object ; requires tab-delimited txt file version of transcripts
 
 3. randomsampler.py
