@@ -17,8 +17,9 @@ Code and analyses used for "Simulation and Evaluation of Sampling Methods for Da
 4. process_results_for_analysis_public.ipynb
    - uses generated raw sampling results to process estimate error results for analysis (outputs to csv
    - requires tab-delimited txt file version of transcripts
+   - requires raw daylong estimate results (in SamplingResults_Raw.zip)
    
 
 5. results_analysis_figures_public.ipynb
       - generates figures & tables included in main text 
-      - requires CSV files of results (see CSVs folder)
+      - requires CSV files of results (see CSV folder)
