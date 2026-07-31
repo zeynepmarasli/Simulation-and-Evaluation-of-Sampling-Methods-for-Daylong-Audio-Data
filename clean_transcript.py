@@ -5,8 +5,8 @@
     # removes non-alphabetic characters; extra linguistic annotations 
     # removes vcm, lex, mwu tiers for CHI 
     # add xds annotation to end of corresponding speaker tier
-    # for ex: *MOT:	let's change your diaper . [+ id] 59836_66554 will be cleaned as:  MOT let's change your diaper 59836_66554 [+ id]
-    # or *FA1:	<good morning.> [!=sings] •%snd:"A787_001109"_27329_29409• will be: FA1 good morning 27329_29409 T
+    # for ex: *MOT:	let's change your diaper . [+ id] 1000_12000 will be cleaned as:  MOT let's change your diaper 1000_12000 [+ id]
+    # or *FA1:	<good morning.> [!=sings] •%snd: 1000_12000• will be: FA1 good morning 1000_12000 T
 
 import sys, operator, os, string, re, random, math
 
