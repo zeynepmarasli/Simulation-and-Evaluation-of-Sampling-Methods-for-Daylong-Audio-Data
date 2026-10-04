@@ -6,7 +6,6 @@
     # removes vcm, lex, mwu tiers for CHI 
     # add xds annotation to end of corresponding speaker tier
     # for ex: *MOT:	let's change your diaper . [+ id] 1000_12000 will be cleaned as:  MOT let's change your diaper 1000_12000 [+ id]
-    # or *FA1:	<good morning.> [!=sings] •%snd: 1000_12000• will be: FA1 good morning 1000_12000 T
 
 import sys, operator, os, string, re, random, math
 
